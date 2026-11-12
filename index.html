@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unsere Produkte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .product-card {
+      flex: 1 1 250px;
+      max-width: 300px;
+      box-sizing: border-box;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .product-card h3 {
+      margin-top: 0;
+    }
+
+    .price {
+      margin-top: 15px;
+      color: #007bff;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .bonus {
+      flex: 2 1 250px;
+      max-width: 400px;
+      background-color: #e8f4ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Unsere Produkte</h1>
+
+  <div class="product-container">
+    <div class="product-card">
+      <h3>Kaffeetasse</h3>
+      <p>Eine schöne Tasse für deinen Lieblingskaffee.</p>
+      <div class="price">9,99 €</div>
+    </div>
+
+    <div class="product-card">
+      <h3>Rucksack</h3>
+      <p>Praktisch für Schule, Arbeit und Freizeit.</p>
+      <div class="price">29,99 €</div>
+    </div>
+
+    <div class="product-card bonus">
+      <h3>Kopfhörer</h3>
+      <p>Guter Klang für Musik und Podcasts. Diese Karte darf mehr Platz einnehmen.</p>
+      <div class="price">49,99 €</div>
+    </div>
+
+    <div class="product-card">
+      <h3>Notizbuch</h3>
+      <p>Für Ideen, Listen und wichtige Notizen.</p>
+      <div class="price">5,99 €</div>
+    </div>
+
+    <div class="product-card">
+      <h3>Trinkflasche</h3>
+      <p>Dein Getränk für unterwegs immer dabei.</p>
+      <div class="price">14,99 €</div>
+    </div>
+
+    <div class="product-card">
+      <h3>Schreibtischlampe</h3>
+      <p>Helles Licht für deinen Arbeitsplatz.</p>
+      <div class="price">24,99 €</div>
+    </div>
+  </div>
+</body>
+</html>
